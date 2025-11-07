@@ -7,29 +7,29 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
-title                    : "bjxiaxueliang"
-title_separator          : "-"
-name                     : &name "bjxiaxueliang"
-description              : &description "personal description"
-url                      : https://bjxiaxueliang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "bjxiaxueliang/bjxiaxueliang.github.io"
+locale                   : "zh-CN"  # 站点语言区域设置"en-US"
+title                    : "夏约舟"  # 站点标题
+title_separator          : "-"  # 标题分隔符
+name                     : &name "夏约舟" # 站点名称（锚点引用）
+description              : &description "personal description"  # 站点描述
+url                      : https://bjxiaxueliang.github.io # 站点的基础主机名和协议
+baseurl                  : "" # 站点的子路径，例如 "/blog"
+repository               : "bjxiaxueliang/bjxiaxueliang.github.io"  # 代码仓库地址
 
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
+# 站点作者 - 以下控制侧边栏中作者内容的显示
+#               如果字段为空，则不会显示图标和链接，否则会显示
+#               可以通过编辑 /_includes/author-profile.html 进行额外定制
 author:
-  # Biographic information
+  # 个人信息
   avatar           : "https://raw.githubusercontent.com/bjxiaxueliang/bjxiaxueliang.github.io/main/images/202511071607826.PNG"
-  name             : "夏约舟"
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "北京"
-  employer         : #"research institute"
-  uri              : "https://blog.csdn.net/xiaxl"
-  email            : "bjxiaxueliang@outlook.com" 
+  name             : "夏约舟"  # 作者姓名
+  bio              : "字句不入心，定是心神外出云游了。不急，泡茶以待，静候它采回一段好故事。"  # 个人简介
+  location         : "北京"   # 所在地
+  employer         : #"research institute"  # 雇主/工作单位
+  uri              : "https://blog.csdn.net/xiaxl"  # 个人网站链接
+  email            : "bjxiaxueliang@outlook.com"    # 邮箱地址
 
-  # Academic websites
+  # 学术网站
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : # "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
@@ -38,7 +38,7 @@ author:
   researchgate     : # URL
 
 
-  # Repositories and software development
+  # 代码仓库和软件开发
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
@@ -46,7 +46,7 @@ author:
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
-  # Social media
+  # 社交媒体
   bluesky          : # "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
@@ -73,15 +73,15 @@ author:
   zhihu            : # URL
 
 
-# Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : false # true, false (default)
-words_per_minute         : 160
-future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false #change to true to add link to talkmap on talks page
+# 站点设置
+teaser                   :  # 预告图片的文件名，放置在 /images/ 目录中，例如 "500x300.png"
+breadcrumbs              : false # 是否显示面包屑导航，true 或 false（默认为 false）
+words_per_minute         : 160  # 每分钟阅读字数（用于计算阅读时间）
+future                   : true # 是否发布未来日期的文章
+read_more                : "disabled" # 如果启用，会在摘要后添加"阅读更多"链接
+talkmap_link             : false # 改为true可在演讲页面添加talkmap链接
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"  评论系统供应商
   disqus:
     shortname            :
   discourse:
@@ -134,20 +134,20 @@ social:
   links: # An array of links to social media profiles
 
 
-# Analytics
+# 分析统计
 analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
 
 
-# Reading Files
+# 读取文件设置
 include:
   - .htaccess
   - _pages
   - files
 exclude:
-  - "*.sublime-project"
+  - "*.sublime-project"   # 排除的文件和目录
   - "*.sublime-workspace"
   - .asset-cache
   - .bundle
@@ -171,7 +171,7 @@ exclude:
   - tmp
   - vendor
 keep_files:
-  - .git
+  - .git  # 保留的文件
   - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
@@ -197,7 +197,7 @@ kramdown:
   enable_coderay: false
 
 
-# Collections
+# 集合配置
 collections:
   teaching:
     output: true
@@ -213,27 +213,27 @@ collections:
     permalink: /:collection/:path/
 
 
-# Defaults
+# 默认值设置
 defaults:
-  # _posts
+  # _posts    页面的默认设置
   - scope:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
+      layout: single    # 布局模板
+      author_profile: true  # 显示作者简介
+      read_time: true   # 显示阅读时间
+      comments: true    # 启用评论
+      share: true       # 启用分享
+      related: true     # 显示相关文章
+  # _pages    页面的默认设置
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # _teaching       页面的默认设置
   - scope:
       path: ""
       type: teaching
@@ -242,7 +242,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _publications
+  # _publications       页面的默认设置
   - scope:
       path: ""
       type: publications
@@ -251,7 +251,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _portfolio        页面的默认设置
   - scope:
       path: ""
       type: portfolio
@@ -260,7 +260,7 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
+  # _talks          页面的默认设置
   - scope:
       path: ""
       type: talks
