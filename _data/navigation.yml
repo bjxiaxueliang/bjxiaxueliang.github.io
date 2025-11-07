@@ -1,22 +1,23 @@
-# main links links
+# 主导航链接配置
+# 定义网站顶部导航栏或侧边栏中显示的主要菜单项
 main:
-#   - title: "Publications"
-#     url: /publications/
+#   - title: "Publications"   # 出版物页面链接（注释状态，未启用）
+#     url: /publications/     # 出版物页面的URL路径
 
-#   - title: "Talks"
-#     url: /talks/    
+#   - title: "Talks"          # 演讲/讲座页面链接（注释状态，未启用）
+#     url: /talks/            # 演讲页面的URL路径
 
-#   - title: "Teaching"
-#     url: /teaching/    
+#   - title: "Teaching"       # 教学页面链接（注释状态，未启用）
+#     url: /teaching/         # 教学页面的URL路径
     
-#   - title: "Portfolio"
-#     url: /portfolio/
+#   - title: "Portfolio"      # 作品集页面链接（注释状态，未启用）
+#     url: /portfolio/        # 作品集页面的URL路径
         
-  - title: "Blog Posts"
-    url: /year-archive/
+  - title: "Blog Posts"       # 博客文章页面链接（已启用）
+    url: /year-archive/       # 博客文章归档页面的URL路径
+      
+#   - title: "CV"             # 简历页面链接（注释状态，未启用）
+#     url: /cv/               # 个人简历页面的URL路径
     
-#   - title: "CV"
-#     url: /cv/
-    
-#   - title: "Guide"
-#     url: /markdown/
+#   - title: "Guide"          # 指南/文档页面链接（注释状态，未启用）
+#     url: /markdown/         # Markdown指南页面的URL路径

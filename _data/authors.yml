@@ -1,18 +1,22 @@
 # Authors
+# 作者信息配置
+# 这里定义了网站中所有作者的基本信息，可以在文章或页面中引用这些作者配置
 
+# 第一个作者配置
 Name Name:
-  name        : "bjxiaxuleiang"
-  uri         : "https://github.com/bjxiaxueliang"
-  email       : "bjxiaxuleiang@outlook.com"
-  bio         : "This is the first name."
-  avatar      : "https://raw.githubusercontent.com/bjxiaxueliang/bjxiaxueliang.github.io/main/images/202410121854214.jpg"
-  twitter     : "name"
-  google_plus : "name"
+  name        : "夏约舟" # 作者姓名（显示名称）
+  uri         : "https://blog.csdn.net/xiaxl"  # 个人网站链接
+  email       : "bjxiaxuleiang@outlook.com"   # 作者邮箱地址
+  bio         : "字句不入心，定是心神外出云游了。不急，泡茶以待，静候他采回一段好故事。"  # 个人简介
+  avatar      : "https://raw.githubusercontent.com/bjxiaxueliang/bjxiaxueliang.github.io/main/images/202511071607826.PNG"
+  twitter     : # "name"    # Twitter/X平台用户名
+  google_plus : # "name"
 
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+# 第二个作者配置
+# Name2 Name2:
+#   name        : "Name2 Name2"
+#   email       : "name2@name2.com"
+#   bio         : "I ordered what?"
+#   avatar      : "bio-photo.jpg"
+#   twitter     : "name2"
+#   google_plus : "Name"
