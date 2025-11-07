@@ -21,12 +21,12 @@ repository               : "bjxiaxueliang/bjxiaxueliang.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "https://raw.githubusercontent.com/bjxiaxueliang/bjxiaxueliang.github.io/main/images/202410121854214.jpg"
-  name             : "bjxiaxueliang"
+  avatar           : "https://raw.githubusercontent.com/bjxiaxueliang/bjxiaxueliang.github.io/main/images/202511071607826.PNG"
+  name             : "夏约舟"
   bio              : "Short biography for the left-hand sidebar"
-  location         : #"Earth"
+  location         : "北京"
   employer         : #"research institute"
-  uri              : # URL
+  uri              : "https://blog.csdn.net/xiaxl"
   email            : "bjxiaxueliang@outlook.com" 
 
   # Academic websites
