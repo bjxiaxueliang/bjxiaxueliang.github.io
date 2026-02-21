@@ -3,7 +3,7 @@ title: '《伍柳仙踪》概述'
 date: 2026-02-21
 permalink: /posts/2026/02/21/the-secret-of-the-golden-flower/
 tags:
-  - The Secret of the Golden Flower
+  - the-secret-of-the-golden-flower
   - 伍柳仙踪
 ---
 
@@ -48,3 +48,11 @@ tags:
     
 - **第五阶段：炼虚合道——粉碎虚空（九年面壁）**  
     此乃丹道修炼之终极功夫，又称“粉碎虚空”。当阳神老成之后，更需将此神通复归于虚无，连“虚空”之相一并粉碎。伍柳派认为此阶段是“无神可凝”，心与俱化，法与俱忘，寂无所寂，照无所照，最终与宇宙本体之大道合而为一。其功需“九年面壁”，于寂灭之中使形神俱妙，复归无极，虽历亿劫，只以完其恒性，方证天仙极果。
+
+
+## 《伍柳仙踪》电子书
+
+[《伍柳仙踪-天仙正理》](https://raw.githubusercontent.com/bjxiaxueliang/bjxiaxueliang.github.io/main/files/伍柳仙踪-01-天仙正理.pdf)
+[《伍柳仙踪-仙佛合宗语录》](https://raw.githubusercontent.com/bjxiaxueliang/bjxiaxueliang.github.io/main/files/伍柳仙踪-02-仙佛合宗语录.pdf)
+[《伍柳仙踪-金仙证论》](https://raw.githubusercontent.com/bjxiaxueliang/bjxiaxueliang.github.io/main/files/伍柳仙踪-03-金仙证论.pdf)
+[《伍柳仙踪-慧命经》](https://raw.githubusercontent.com/bjxiaxueliang/bjxiaxueliang.github.io/main/files/伍柳仙踪-04-慧命经.pdf)
