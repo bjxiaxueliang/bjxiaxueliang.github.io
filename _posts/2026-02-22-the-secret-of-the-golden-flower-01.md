@@ -1,5 +1,5 @@
 ---
-title: '《伍柳仙踪》炼己筑基——立鼎安炉，扫除心垢'
+title: '《伍柳仙踪》炼己筑基：立鼎安炉，扫除心垢'
 date: 2026-02-22
 permalink: /posts/2026/02/22/the-secret-of-the-golden-flower-01/
 tags:

@@ -1,5 +1,5 @@
 ---
-title: '《伍柳仙踪》炼精化炁——采药归炉，运转河车'
+title: '《伍柳仙踪》炼精化炁：采药归炉，运转河车'
 date: 2026-02-22
 permalink: /posts/2026/02/22/the-secret-of-the-golden-flower-02/
 tags:
