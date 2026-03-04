@@ -1,5 +1,5 @@
 ---
-title: '五豆粥'
+title: '五色入五脏：一碗“五豆粥”的养生之道'
 date: 2026-03-03
 permalink: /posts/2026/03/03/five-bean-congee/
 tags:
